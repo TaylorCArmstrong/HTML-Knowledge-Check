@@ -8,14 +8,15 @@
 <body>
     <!--Your Code Goes Here-->
     <header>
-    <h1><u>Pens +</u></h1>
-    <h5><em>The office supply outlet</em></h5>
-</header>
+        <h1><u>Pens +</u></h1>
+        <h5><em>The office supply outlet</em></h5>
+    </header>
+   
     <fieldset>
         <legend>Contact Us</legend>
 
         <br>
-<form action="/submit" method="POST">
+        <form action="/submit" method="POST">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name">
 
@@ -32,10 +33,10 @@
         <br>
 
         <input type="submit" value="Submit">
-</form>
+        </form>
     </fieldset>
 
-    <fieldset>
+    <form action="/submit" method="POST">
         <p>How did you find us?</p>
         <div>
             <input type="radio" id="Google" name="How did you find us?" value="Google">
@@ -53,6 +54,7 @@
             <input type="radio" id="Other" name="How did you find us?" value="Other">
             <label for="Other" style="margin-right: 20px;">Other</label>
         </div>
+         </form>
     </fieldset>
 
     <br>
@@ -81,5 +83,14 @@
             <td>1 Book</td>
         </tr>
     </table>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
 </body>
 </html>
